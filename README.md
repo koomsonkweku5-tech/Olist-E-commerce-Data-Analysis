@@ -1,6 +1,6 @@
 # Olist-E-commerce-Data-Analysis
 End-to-end data analytics project using Excel, MySQL, and Power BI
-# Olist E-commerce Data Analysis
+
 
 ## Project Overview
 This project analyses a real-world e-commerce dataset to understand sales performance, customer behaviour, product demand, and payment trends.
