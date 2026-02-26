@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project is an **end-to-end data analytics case study** using the **Olist e-commerce dataset**.  
-The goal was to simulate a real-world business analytics workflow — from raw data validation and cleaning, through SQL-based analysis, to interactive dashboarding in Power BI.
+The goal was to simulate a real-world business analytics workflow from raw data validation and cleaning, through SQL-based analysis, to interactive dashboarding in Power BI.
 
 The project focuses on understanding **sales performance, customer behaviour, product demand, and payment trends** to support data-driven decision-making.
 
