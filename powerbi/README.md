@@ -5,8 +5,7 @@ The interactive Power BI dashboard was built using cleaned data from MySQL and f
 **Download the Power BI file:**  
 [olist_dashboard.pbix](olist_dashboard.pbix)
 
-screenshots/
-└── Final_Dashboard.png
+
 
 ### 📷 Dashboard Preview
 
