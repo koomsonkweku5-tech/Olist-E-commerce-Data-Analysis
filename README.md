@@ -1,4 +1,31 @@
+# Olist E-commerce Sales Analysis (SQL + Power BI)
 
+## Project Overview
+This project is an **end-to-end data analytics case study** using the **:contentReference[oaicite:0]{index=0} e-commerce dataset**.  
+The goal was to simulate a real-world business analytics workflow — from raw data validation and cleaning, through SQL-based analysis, to interactive dashboarding in Power BI.
+
+The project focuses on understanding **sales performance, customer behaviour, product demand, and payment trends** to support data-driven decision-making.
+
+---
+
+## Business Objectives
+- Analyse overall sales performance
+- Identify revenue trends over time
+- Measure key KPIs such as Revenue, Orders, Customers, and AOV
+- Understand product category performance
+- Analyse payment method preferences
+- Present insights in a clear, stakeholder-friendly dashboard
+
+---
+
+## Tools & Technologies
+- **Excel** – Initial data exploration and structure validation  
+- **MySQL** – Data health checks, cleaning, transformations, and KPI validation  
+- **Power BI** – Data modelling, DAX measures, and interactive dashboards  
+
+---
+
+## 📂 Project Structure
 
 ## Data Preparation & Cleaning (SQL)
 Before analysis, data quality checks were performed to ensure reliability.
