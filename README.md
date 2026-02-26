@@ -1,28 +1,77 @@
-# Olist-E-commerce-Data-Analysis
-End-to-end data analytics project using Excel, MySQL, and Power BI
 
 
-## Project Overview
-This project analyses a real-world e-commerce dataset to understand sales performance, customer behaviour, product demand, and payment trends.
+## Data Preparation & Cleaning (SQL)
+Before analysis, data quality checks were performed to ensure reliability.
 
-## Tools Used
-- Excel
-- MySQL
-- Power BI
-- DAX
+### Key steps included:
+- Row count validation across all tables
+- Checking for missing or null values
+- Identifying and handling duplicate records
+- Filtering only **delivered orders**
+- Standardising data types using `CAST`
+- Creating cleaned tables for analysis
 
-## Project Workflow
-1. Data validation in Excel
-2. Data cleaning and relational modelling in MySQL
-3. Data modelling and dashboard creation in Power BI
-4. KPI development and business insights
+These steps were saved in `data_cleaning.sql`.
 
-## Key Metrics
-- Total Revenue
-- Total Orders
-- Average Order Value (AOV)
-- Total Customers
-- Payment Method Distribution
+---
 
-## Outcome
-An interactive Power BI dashboard providing actionable insights for business decision-making.
+## KPI & Analysis Logic (SQL)
+After data preparation, SQL was used to validate business metrics prior to visualisation.
+
+### Key KPIs calculated:
+- **Total Revenue**
+- **Total Orders**
+- **Total Customers**
+- **Average Order Value (AOV)**
+- **Monthly Revenue Trend**
+- **Revenue by Payment Type**
+- **Top Product Categories by Revenue**
+
+All KPI queries are documented in `analysis_queries.sql`.
+
+---
+
+## Power BI Dashboard
+The cleaned data was loaded into Power BI, where a **star schema** model was created.  
+All KPIs were implemented using **DAX measures** (not calculated columns) to ensure dynamic filtering.
+
+### Dashboard features:
+- KPI cards (Revenue, Orders, Customers, AOV)
+- Monthly revenue trend analysis
+- Product category performance
+- Payment method distribution
+- Geographic customer distribution
+- Interactive slicers for exploration
+
+---
+
+## Key Insights
+- Revenue is driven by a small number of top-performing product categories
+- Certain payment methods dominate transaction value
+- Clear monthly sales trends highlight seasonality
+- Customer distribution varies significantly by location
+
+---
+
+## Skills Demonstrated
+- SQL data cleaning and validation
+- KPI design and business metric thinking
+- Relational data modelling
+- DAX measure creation
+- Power BI dashboard design
+- Communicating insights clearly for stakeholders
+
+---
+
+## Next Steps / Improvements
+- Add customer segmentation analysis
+- Introduce profitability metrics
+- Automate data refresh with scheduled pipelines
+- Expand dashboard with forecasting visuals
+
+---
+
+## Contact
+I am currently pursuing an **MSc in Data Science & Analytics in the UK** and actively seeking **Data Analyst / Data Science internship opportunities**.
+
+Feel free to connect with me on LinkedIn or reach out via GitHub for feedback or collaboration.
