@@ -38,7 +38,7 @@ Before analysis, data quality checks were performed to ensure reliability.
 - Standardising data types using `CAST`
 - Creating cleaned tables for analysis
 
-These steps were saved in `data_cleaning.sql`.
+These steps were saved in `Data_Cleaning_Health_Checks.sql`.
 
 ---
 
@@ -54,7 +54,7 @@ After data preparation, SQL was used to validate business metrics prior to visua
 - **Revenue by Payment Type**
 - **Top Product Categories by Revenue**
 
-All KPI queries are documented in `analysis_queries.sql`.
+All KPI queries are documented in `Analysis_queries_kpis.sql`.
 
 ---
 
